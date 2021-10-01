@@ -18,12 +18,23 @@
 }
 
 #logo{
-    height: 60px;
-    margin: 10px;
+    height: 50px;
+    padding-right: 20px;
+    border-right: 1px solid lightgray   ;   
 }
 
 #navigazione{
-    height: 40px;
+    padding-top: 10px;
+    height: 50px;
+    line-height: 40px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: gray;
+    margin-right: 10px;
 }
 
 .top{
@@ -33,7 +44,14 @@
 
 .bottom{
     height: 280px;
-    
+    background-image: url(../img/banner.jpg);
+    background-size: 80% 280px;    
+}
+
+.cont-testo{
+    width: 40%;
+    color: white;
+    padding: 150px 0 0 20px;
 }
 
 /****** main ******/
@@ -72,13 +90,13 @@
 
 /****** debug ******/
 
-.debug .top{
+/* .debug .top{
     background-color: hotpink;
-}
+} */
 
-.debug .bottom{
+/* .debug .bottom{
     background-color: khaki;
-}
+} */
 
 .debug .cont-main{
     height: 350px;
