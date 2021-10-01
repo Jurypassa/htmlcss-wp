@@ -43,21 +43,28 @@ ul li{
 }
 
 .bottom{
-    height: 280px;
+    height: 450px;
     background-image: url(../img/banner.jpg);
-    background-size: 80% 280px;    
+    background-size: 100% 450px;   
+    border: 1px, solid none;
+    border-radius: 15px; 
 }
 
 .cont-testo{
     width: 40%;
     color: white;
-    padding: 150px 0 0 20px;
+    padding: 300px 0 0 40px;
+    
 }
 
 /****** main ******/
 
 .cont-main{
     margin-bottom: 10px;
+}
+
+.grigio{
+    color: gray;
 }
 
 .colonna{
@@ -82,10 +89,22 @@ ul li{
 .terza{
     width: 20%;
 }
+
+.img1,
+.img2,
+.img3{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
 /***** footer *****/
 
 .footer{
-    height: 50px;  
+    height: 50px;
+    margin-top: 10px;  
 }
 
 /****** debug ******/
@@ -98,15 +117,15 @@ ul li{
     background-color: khaki;
 } */
 
-.debug .cont-main{
+/* .debug .cont-main{
     height: 350px;
-}
+} */
 
-.debug .riga{
+/* .debug .riga{
     height: 50px;  
-}
+} */
 
-.debug .colonna{
+/* .debug .colonna{
     height: 260px;
 }
 
@@ -117,8 +136,8 @@ ul li{
 
 .debug .cont-main{
     background-color:dodgerblue;
-}
+} */
 
-.debug .footer{
+/* .debug .footer{
     background-color: fuchsia;
-}
+} */
