@@ -1,0 +1,97 @@
+/****** common ******/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 65%;
+    margin: 0 auto;
+}
+
+/****** Header ******/
+
+.mg-20{
+    margin-bottom: 20px;
+}
+
+.top{
+    height: 100px;
+    margin-top: 10px;
+}
+
+.bottom{
+    height: 280px;
+    
+}
+
+/****** main ******/
+
+.cont-main{
+    margin-bottom: 10px;
+}
+
+.colonna{
+    float:left;
+}
+    
+.clearfix::after{
+    content: 0;
+    clear: both;
+    display: table;
+}
+
+.prima{
+    width:20%;
+}
+
+.seconda{
+    width: 58%;
+    margin: 0 1%;
+}
+
+.terza{
+    width: 20%;
+}
+/***** footer *****/
+
+.footer{
+    height: 50px;  
+}
+
+/****** debug ******/
+
+.debug .top{
+    background-color: hotpink;
+}
+
+.debug .bottom{
+    background-color: khaki;
+}
+
+.debug .cont-main{
+    height: 350px;
+}
+
+.debug .riga{
+    height: 50px;  
+}
+
+.debug .colonna{
+    height: 260px;
+}
+
+.debug .colonna, 
+.debug .riga{
+    background-color: rgb(103, 212, 248);
+}
+
+.debug .cont-main{
+    background-color:dodgerblue;
+}
+
+.debug .footer{
+    background-color: fuchsia;
+}
