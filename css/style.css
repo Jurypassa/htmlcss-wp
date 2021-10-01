@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 .container{
     width: 65%;
     margin: 0 auto;
@@ -16,6 +17,7 @@
 .mg-20{
     margin-bottom: 20px;
 }
+
 
 #logo{
     height: 50px;
@@ -53,9 +55,35 @@ ul li{
 .cont-testo{
     width: 40%;
     color: white;
-    padding: 300px 0 0 40px;
-    
+    padding: 300px 0 0 40px;   
 }
+
+h3{
+    margin: 10px 0;
+}
+
+/****** overlay *******/
+.overlay::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.overlay{
+    position: relative;
+}
+
+.overlay>.cont-testo{
+    z-index: 2;
+    position: relative;
+}
+
 
 /****** main ******/
 
@@ -63,7 +91,7 @@ ul li{
     margin-bottom: 10px;
 }
 
-.grigio{
+h3, .grigio{
     color: gray;
 }
 
@@ -99,33 +127,37 @@ ul li{
 }
 
 
-
 /***** footer *****/
 
 .footer{
-    height: 50px;
-    margin-top: 10px;  
+    height: 100px;
+    line-height: 100px; 
+    text-align: center;
+}
+
+#cuore{
+    color: red;
 }
 
 /****** debug ******/
 
-/* .debug .top{
+.debug .top{
     background-color: hotpink;
 } */
 
-/* .debug .bottom{
+.debug .bottom{
     background-color: khaki;
-} */
+}
 
-/* .debug .cont-main{
+.debug .cont-main{
     height: 350px;
-} */
+}
 
-/* .debug .riga{
+.debug .riga{
     height: 50px;  
-} */
+}
 
-/* .debug .colonna{
+.debug .colonna{
     height: 260px;
 }
 
@@ -136,8 +168,10 @@ ul li{
 
 .debug .cont-main{
     background-color:dodgerblue;
-} */
+} 
 
-/* .debug .footer{
+.debug .footer{
     background-color: fuchsia;
-} */
+}
+
+
